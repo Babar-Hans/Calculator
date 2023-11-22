@@ -15,23 +15,24 @@
     <h1>Calculator</h1>
     <input type="text"  id="display" readonly>
     <div id="button-container">
-        <button class="cal-button">C</button>
-        <button class="cal-button">1</button>
-        <button class="cal-button">2</button>
-        <button class="cal-button">+</button>
-        <button class="cal-button">3</button>
-        <button class="cal-button">4</button>
-        <button class="cal-button">-</button>
-        <button class="cal-button">5</button>
-        <button class="cal-button">6</button>
-        <button class="cal-button">*</button>
-        <button class="cal-button">7</button>
-        <button class="cal-button">8</button>
-        <button class="cal-button">/</button>
-        <button class="cal-button">=</button>
-        <button class="cal-button">9</button>
-        <button class="cal-button">0</button>
-        <button class="cal-button">.</button>
+        <button class="cal-button" onclick=" currentDisplay = ' ';
+        document.getElementById('display').value = currentDisplay;">C</button>
+        <button class="cal-button" onclick="one()">1</button>
+        <button class="cal-button" onclick="two()">2</button>
+        <button class="cal-button" onclick="add()">+</button>
+        <button class="cal-button" onclick="three()">3</button>
+        <button class="cal-button" onclick="four()">4</button>
+        <button class="cal-button" onclick="minus()">-</button>
+        <button class="cal-button" onclick="five()">5</button>
+        <button class="cal-button" onclick="six()">6</button>
+        <button class="cal-button" onclick="product()">*</button>
+        <button class="cal-button" onclick="seven()">7</button>
+        <button class="cal-button" onclick="eight()">8</button>
+        <button class="cal-button" onclick="divide()">/</button>
+        <button class="cal-button" onclick="equal()">=</button>
+        <button class="cal-button" onclick="nine()">9</button>
+        <button class="cal-button" onclick="zero()">0</button>
+        <button class="cal-button" onclick="dot()">.</button>
     </div>
 </div>
 </div>
