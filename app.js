@@ -24,7 +24,8 @@
 // document.getElementById('demo').innerHTML=x;
 
 
-const pi = 3.141592653589793238462643383279502884197;
-let r = 4;
-let pi = 4;
-console.log(pi*r*r);
+// const pi = 3.141592653589793238462643383279502884197;
+// let r = 4;
+// console.log(pi*r*r);
+
+
