@@ -1,75 +1,80 @@
 
-let currentDisplay = '';
-document.querySelector('#display').value = currentDisplay;
+//------------------------Calculator--------------------------------------//
 
-function one(){
-    currentDisplay = currentDisplay + '1';
-    document.getElementById('display').value = currentDisplay;
-}
-function two(){
-    currentDisplay = currentDisplay + '2';
-    document.getElementById('display').value = currentDisplay;
-}
-function three(){
-    currentDisplay = currentDisplay + '3';
-    document.getElementById('display').value = currentDisplay;
-}
+// let currentDisplay = '';
+// document.querySelector('#display').value = currentDisplay;
 
-function four(){
-    currentDisplay = currentDisplay + '4';
-    document.getElementById('display').value = currentDisplay;
-}
-function five(){
-    currentDisplay = currentDisplay + '5';
-    document.getElementById('display').value = currentDisplay;
-}
-function six(){
-    currentDisplay = currentDisplay + '6';
-    document.getElementById('display').value = currentDisplay;
-}
+// function one(){
+//     currentDisplay = currentDisplay + '1';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function two(){
+//     currentDisplay = currentDisplay + '2';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function three(){
+//     currentDisplay = currentDisplay + '3';
+//     document.getElementById('display').value = currentDisplay;
+// }
 
-function seven(){
-    currentDisplay = currentDisplay + '7';
-    document.getElementById('display').value = currentDisplay;
-}
-function eight(){
-    currentDisplay = currentDisplay + '8';
-    document.getElementById('display').value = currentDisplay;
-}
-function nine(){
-    currentDisplay = currentDisplay + '9';
-    document.getElementById('display').value = currentDisplay;
-}
-function zero(){
-    currentDisplay = currentDisplay + '0';
-    document.getElementById('display').value = currentDisplay;
-}
-function divide(){
-    currentDisplay = currentDisplay + '/';
-    document.getElementById('display').value = currentDisplay;
-}
-function dot(){
-    currentDisplay = currentDisplay + '.';
-    document.getElementById('display').value = currentDisplay;
-}
-function add(){
-    currentDisplay = currentDisplay + '+';
-    document.getElementById('display').value = currentDisplay;
-}
-function minus(){
-    currentDisplay = currentDisplay + '-';
-    document.getElementById('display').value = currentDisplay;
-}
-function product(){
-    currentDisplay = currentDisplay + '*';
-    document.getElementById('display').value = currentDisplay;
-}
-function equal(){
-    currentDisplay = eval(currentDisplay) ;
-    document.getElementById('display').value = currentDisplay;
-}
+// function four(){
+//     currentDisplay = currentDisplay + '4';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function five(){
+//     currentDisplay = currentDisplay + '5';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function six(){
+//     currentDisplay = currentDisplay + '6';
+//     document.getElementById('display').value = currentDisplay;
+// }
 
+// function seven(){
+//     currentDisplay = currentDisplay + '7';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function eight(){
+//     currentDisplay = currentDisplay + '8';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function nine(){
+//     currentDisplay = currentDisplay + '9';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function zero(){
+//     currentDisplay = currentDisplay + '0';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function divide(){
+//     currentDisplay = currentDisplay + '/';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function dot(){
+//     currentDisplay = currentDisplay + '.';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function add(){
+//     currentDisplay = currentDisplay + '+';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function minus(){
+//     currentDisplay = currentDisplay + '-';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function product(){
+//     currentDisplay = currentDisplay + '*';
+//     document.getElementById('display').value = currentDisplay;
+// }
+// function equal(){
+//     currentDisplay = eval(currentDisplay) ;
+//     document.getElementById('display').value = currentDisplay;
+// }
 
+//--------------------------Cricket-Game-----------------------//
+
+let ramdomNumberGenerator = Math.random() * 3
+console.log(ramdomNumberGenerator)
 
 
 
